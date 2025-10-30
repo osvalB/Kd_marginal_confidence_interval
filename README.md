@@ -4,5 +4,11 @@ as presented in Vaida Paketuryte *et al.*, 2021. "Uncertainty in protein–ligan
 The idea is to select a parameter *p*, keep it fixed at different values, and minimize the residual sum of squares.
 When a certain threshold is reached, the confidence interval is computed.
 
-### Instructions
+### Dependencies
 
+To run the notebook inside example.ipynb you need to have installed
+
+- numpy
+- scipy
+- matplotlib
+- jupyter
